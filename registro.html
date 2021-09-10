@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./CSS/registro.css">
+  <title>Registro | Películas para ti</title>
+</head>
+
+<body>
+
+  <header>
+    <a href="index.html">
+      <h1>Películas para ti</h1>
+      <img src="./Imagenes/popcorn.svg" id="icon-popcorn" width="50px" height="50px">
+      <img src="./Imagenes/pelicula.svg" id="icon-pelicula" width="50px" height="50px">
+    </a>
+    <nav>
+      <ul>
+        <a href="index.html" id="inicio">
+          <li><i class="fas fa-home"></i>Inicio</li>
+        </a>
+        <a href="registro.html" id="registro">
+          <li><i class="fas fa-user-plus"></i>Registro</li>
+        </a>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <form name="formulario">
+        <i class="fas fa-user-plus" id="user-form"></i>
+        <label for="nombres">Nombre</label>
+        <input type="text" id="nombre">
+        <label for="apellidos">Apellido</label>
+        <input type="text" id="apellido">
+        <label for="teléfono">Teléfono</label>
+        <input type="text" id="telefono">
+        <label for="dirección">Dirección</label>
+        <input type="text" id="direccion">
+        <label for="dirección" id="label-observaciones">Observaciones</label>
+        <textarea name="observaciones" id="observaciones" cols="43" rows="8"></textarea>
+        <input type="button" id="btn-enviar" value="Enviar">
+        <p id="validaciones">Validaciones del formulario</p>
+      </form>
+
+      <p id="registro-ok">Usuario registrado con exito!</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© Copyright 2021 Películas para ti</p>
+  </footer>
+
+  <script src="./JS/registro.js"></script>
+
+</body>
+
+</html>

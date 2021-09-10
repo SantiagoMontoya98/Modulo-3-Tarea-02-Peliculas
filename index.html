@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./CSS/styles.css">
+  <title>Películas para ti</title>
+</head>
+
+<body>
+
+  <header>
+    <a href="index.html">
+      <h1>Películas para ti</h1>
+      <img src="./Imagenes/popcorn.svg" id="icon-popcorn" width="50px" height="50px">
+      <img src="./Imagenes/pelicula.svg" id="icon-pelicula" width="50px" height="50px">
+    </a>
+    <nav>
+      <ul>
+        <a href="index.html" id="inicio">
+          <li><i class="fas fa-home"></i>Inicio</li>
+        </a>
+        <a href="registro.html" id="registro">
+          <li><i class="fas fa-user-plus"></i>Registro</li>
+        </a>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+
+      <div class="slider">
+        <div class="slider-slides">
+          <div class="slider-slide active">
+            <img src="./Imagenes/3_en_1.jpg">
+          </div>
+          <div class="slider-slide">
+            <img src="./Imagenes/avengers-1.jpg">
+          </div>
+          <div class="slider-slide">
+            <img src="./Imagenes/batman-1.jpg" width="1300" height="400">
+          </div>
+        </div>
+        <div class="slide-izq">&lt;</div>
+        <div class="slide-der">&gt;</div>
+      </div>
+
+      <div id="peliculas-mini">
+        <div>
+          <!-- El contenido se agrega desde el archivo script.js -->
+        </div>
+        <div>
+          <!-- El contenido se agrega desde el archivo script.js -->
+        </div>
+        <div>
+          <!-- El contenido se agrega desde el archivo script.js -->
+        </div>
+        <div>
+          <!-- El contenido se agrega desde el archivo script.js -->
+        </div>
+        <div>
+          <!-- El contenido se agrega desde el archivo script.js -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© Copyright 2021 Películas para ti</p>
+  </footer>
+
+  <script src="./JS/script.js"></script>
+
+</body>
+
+</html>
